@@ -28,7 +28,7 @@ passport.use(new Strategy(jwt, function(jwt_payload, done) {
     done()
 }))
 
-mongoose.connect('mongodb+srv://Evaru:dfghjc13@cluster0-vpnvn.mongodb.net/chat',{
+mongoose.connect('mongodb+srv://Ваш логин-пароль/chat',{
     useNewUrlParser: true,
     useUnifiedTopology: true 
 })
